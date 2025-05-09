@@ -34,5 +34,44 @@ Once all settings are configured, click **Launch Instance** to start the EC2 ins
 ```
 ![image](https://github.com/user-attachments/assets/7beaf86a-9631-4138-964d-1c7f80518d49)
 
+```
+#cd /var/www/html/
+#sudo chown $USER:$USER .
+#chmod u+w .
+#git clone git@github.com:heroviredssptr007/Herovired_CI_CD_Assignment.git
+```
+Change the root path `/var/www/html` to `/var/www/html/Herovired_CI_CD_Assignment` and restart the nginx
+
+```
+#sudo systemctl restart nginx
+```
+[http://100.25.143.57/](url)
+
+![image](https://github.com/user-attachments/assets/c60cffef-d725-4cf1-ab2d-8a80db99ee77)
+
+## Step 3: Installation of python github
+```
+#sudo apt install -y python3 python3-full python3-pip
+#python3 -m venv venv
+#source venv/bin/activate
+#pip3 install PyGithub
+```
+![image](https://github.com/user-attachments/assets/fb11bfdf-4991-4ba2-b840-014e907cc0e6)
+
+## Step4: Scheduling this script has to run every minute job
+```
+* * * * * /home/ubuntu/Herovired_CI_CD_Assignment/script.sh
+```
+
+![image](https://github.com/user-attachments/assets/bb3275cc-e5bd-4f67-9fbb-b1b46c9a31c9)
+
+
+
+
+
+
+
+
+
 
 
