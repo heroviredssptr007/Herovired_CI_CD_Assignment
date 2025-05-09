@@ -45,9 +45,39 @@ Change the root path `/var/www/html` to `/var/www/html/Herovired_CI_CD_Assignmen
 ```
 #sudo systemctl restart nginx
 ```
+index.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Original Webpage</title>
+  <style>
+    body {
+      background-color: yellow;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      color: black;
+      font-weight: bold;
+      font-size: 48px; /* High font size */
+    }
+  </style>
+</head>
+<body>
+  <div class="text">This is Original webpage</div>
+</body>
+</html>
+```
+
 [Website](http://100.25.143.57/)
 
-![image](https://github.com/user-attachments/assets/c60cffef-d725-4cf1-ab2d-8a80db99ee77)
+![image](https://github.com/user-attachments/assets/7be504dc-44fe-4d60-9ed4-5e5200ac5ca9)
+
 
 ## Step 3: Installation of python github
 ```
@@ -58,12 +88,14 @@ Change the root path `/var/www/html` to `/var/www/html/Herovired_CI_CD_Assignmen
 ```
 ![image](https://github.com/user-attachments/assets/fb11bfdf-4991-4ba2-b840-014e907cc0e6)
 
-## Step4: Scheduling this script has to run every minute job
+## Step 4: Scheduling this script has to run every minute job
 ```
 * * * * * /home/ubuntu/Herovired_CI_CD_Assignment/script.sh
 ```
 
 ![image](https://github.com/user-attachments/assets/bb3275cc-e5bd-4f67-9fbb-b1b46c9a31c9)
+
+## Step 5: Do the changes in nginx
 
 
 
