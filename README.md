@@ -26,7 +26,13 @@ Once all settings are configured, click **Launch Instance** to start the EC2 ins
 
 ![image](https://github.com/user-attachments/assets/a9704bbf-dd14-4e72-ad4d-7f12c7558a61)
 
-
+## Step 2: Installation of nginx service
+```
+#sudo apt update
+#sudo apt install -y nginx
+sudo systemctl status nginx
+```
+![image](https://github.com/user-attachments/assets/7beaf86a-9631-4138-964d-1c7f80518d49)
 
 
 
