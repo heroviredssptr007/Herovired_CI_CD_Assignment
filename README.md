@@ -45,7 +45,7 @@ Change the root path `/var/www/html` to `/var/www/html/Herovired_CI_CD_Assignmen
 ```
 #sudo systemctl restart nginx
 ```
-[Link Text](http://100.25.143.57/)
+[Website](http://100.25.143.57/)
 
 ![image](https://github.com/user-attachments/assets/c60cffef-d725-4cf1-ab2d-8a80db99ee77)
 
