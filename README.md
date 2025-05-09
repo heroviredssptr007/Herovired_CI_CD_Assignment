@@ -127,8 +127,13 @@ index.html
 ```
 #git add index.html
 #git commit -m "Updated the index.html"
-#
+#git push origin main
 ```
+![image](https://github.com/user-attachments/assets/b0ee3aa0-0e18-4fed-ac98-7074619e5512)
+
+![image](https://github.com/user-attachments/assets/e7a1bdbf-011a-45e7-a2ff-c0f77f9f5986)
+
+
 
 
 
