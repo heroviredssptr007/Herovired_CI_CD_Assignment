@@ -24,7 +24,8 @@ Follow the steps below to create EC2 instances for your application:
 
 Once all settings are configured, click **Launch Instance** to start the EC2 instances.
 
-![image](https://github.com/user-attachments/assets/209d2a41-2d3a-472a-9f12-8ed6e516c064)
+![image](https://github.com/user-attachments/assets/a9704bbf-dd14-4e72-ad4d-7f12c7558a61)
+
 
 
 
