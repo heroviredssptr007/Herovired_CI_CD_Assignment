@@ -95,7 +95,41 @@ index.html
 
 ![image](https://github.com/user-attachments/assets/bb3275cc-e5bd-4f67-9fbb-b1b46c9a31c9)
 
-## Step 5: Do the changes in nginx
+## Step 5: Do the changes in index.html and push this to github
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Original Webpage</title>
+  <style>
+    body {
+      background-color: yellow;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      color: black;
+      font-weight: bold;
+      font-size: 48px; /* High font size */
+    }
+  </style>
+</head>
+<body>
+  <div class="text">This is Updated webpage</div>
+</body>
+</html>
+```
+
+```
+#git add index.html
+#git commit -m "Updated the index.html"
+#
+```
+
 
 
 
